@@ -3198,7 +3198,7 @@ namespace Steamworks {
 		[return: MarshalAs(UnmanagedType.I1)]
 		public static extern bool ISteamUtils_IsSteamRunningOnSteamDeck(IntPtr instancePtr);
 
-		[DllImport(NativeLibraryName, EntryPoint = "SteamAPI_ISteamUtils_ShowFloatingGamepadTextInput", CallingConvention = CallingConvention.Cdecl)]
+		[DllImport(NativeLibraryName, EntryPoint = "SteamAPI_ISteamUtils_ShowModalGamepadTextInput", CallingConvention = CallingConvention.Cdecl)]
 		[return: MarshalAs(UnmanagedType.I1)]
 		public static extern bool ISteamUtils_ShowFloatingGamepadTextInput(IntPtr instancePtr, EFloatingGamepadTextInputMode eKeyboardMode, int nTextFieldXPosition, int nTextFieldYPosition, int nTextFieldWidth, int nTextFieldHeight);
 
